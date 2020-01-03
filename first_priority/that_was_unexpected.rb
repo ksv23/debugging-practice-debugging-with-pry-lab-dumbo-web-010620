@@ -14,15 +14,15 @@ class Person
     true
   end
 
-  def basketball_player?
+  def basketball_player
     false
   end
 
-  def likes_candy?
+  def likes_candy
     true
   end
 
-  def ballin_candy_lover?
+  def ballin_candy_lover
     binding.pry
 
 
