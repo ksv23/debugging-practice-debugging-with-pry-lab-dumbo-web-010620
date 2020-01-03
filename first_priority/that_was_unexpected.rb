@@ -5,7 +5,6 @@ class Person
 
   def initialize(name, candy_lover)
 
-    binding.pry
 
     @name = name
     @candy_lover = candy_lover
@@ -24,6 +23,9 @@ class Person
   end
 
   def ballin_candy_lover?
+    binding.pry
+
+
     if @candy_lover == true
       "Aw sweet, this cat loves them some candy!"
     else
