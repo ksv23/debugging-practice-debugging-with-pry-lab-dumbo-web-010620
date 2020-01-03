@@ -14,6 +14,7 @@ class Person
 
   def basketball_player?
     false
+    binding.pry
   end
 
   def likes_candy?
@@ -29,4 +30,3 @@ class Person
     end
   end
 end
-binding.pry
