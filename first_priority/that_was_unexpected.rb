@@ -10,7 +10,7 @@ class Person
     @candy_lover = candy_lover
   end
 
-  def tall?
+  def tall
     true
   end
 
